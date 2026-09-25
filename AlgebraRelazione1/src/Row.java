@@ -11,6 +11,10 @@ public class Row {
         return values.get(index);
     }
 
+    public ArrayList<String> getValues() {
+        return values;
+    }
+
     public void setValues(ArrayList<String> values) {
         this.values = values;
     }
